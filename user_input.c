@@ -11,12 +11,12 @@ void user_input(char *str, size_t size)
 	{
 		if (feof(stdin))
 		{
-			sj_print("\n");
+			printf("\n");
 			exit(EXIT_SUCCESS);
 		}
 		else
 		{
-			sj_print("Error.\n");
+			printf("Error.\n");
 			exit(EXIT_FAILURE);
 		}
 	}

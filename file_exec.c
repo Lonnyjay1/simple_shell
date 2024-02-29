@@ -13,7 +13,7 @@ void exec_fun(const char *str)
 
 	if (pid == (-1))
 	{
-		sj_print("Error while forking");
+		printf("Error while forking");
 		exit(EXIT_FAILURE);
 	}
 	else if (pid == 0)

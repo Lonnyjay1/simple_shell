@@ -5,5 +5,5 @@
 
 void user_prompt(void)
 {
-	sj_print("s_j shell$ \n");
+	printf("s_j shell$ \n");
 }
